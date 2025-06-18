@@ -2,30 +2,20 @@
 # Створення багатовіконного TUI з допомогою Jexer
 Мета роботи - навчитись створювати прості текстові інтерфейси з допомогою популярної бібліотеки [Jexer](https://gitlab.com/klamonte/jexer).
 
-![Demo](https://github.com/liketaurus/TUI-Labs/blob/master/Lab%201%20-TUI/TUI-Lab-1.PNG)
 
-Допоміжні матеріали:
- - [Документація](https://jexer.sourceforge.io/apidocs/api/overview-summary.html)
- - [Вікі з прикладами](https://gitlab.com/klamonte/jexer/wikis/home)
- - [Репозиторій](https://github.com/liketaurus/OOP-JAVA) з класами з усіх попередніх лаб (завдання 'Banking')
-
-Ви можете обрати завдання на бажану оцінку - три, чотири або п'ять. *УВАГА! Завдання "на чотири" та "на п'ять" потребують виконання завдання "на три"!*
 ## На "трійку"
-1. Завантажте jar-файл Jexer з [cайту проекту](https://sourceforge.net/projects/jexer/files/latest/download) або з [цього ж репозиторію](https://github.com/liketaurus/TUI-Labs/blob/master/jars/jexer-0.3.0.jar)
-2. Створіть в Netbeans новий проект з назвою TUIdemo. *УВАГА! Чекбокс *Create Main Class* треба **очистити** (**не створювати виконуваний клас**)!*
-3. Додайте до проекту бібліотеку Jexer - правою кнопкой на проекті, обрати *Properties*, потім у дереві категорій обрати *Libraries* (другий пункт зверху), натиснути у правій частині вікна кнопку *Add JAR/Folder*, обрати jar-файл, завантажений у п. 1, натиснути *Ok*
-4. Додайте до проекту файл **[TUIdemo.java](https://github.com/liketaurus/TUI-Labs/blob/master/Lab%201%20-TUI/TUIdemo.java)** з цього репозиторію
-5. Вивчіть вихідний код у файлі, впевніться, що ви розумієте як він має працювати
-6. Запустіть проект - ви маєте побачити вікно з меню та рядком статусу. Дослідіть пункти меню, впевніться, що всі вони працюють та надають корисну функціональність. Продемонстрируйте результат викладачеві.
+![3](https://github.com/user-attachments/assets/e79a1e1f-3b2e-494f-b360-31e0bb5f865c)
 
 ## На "чотири"
-1. Перепишіть метод **ShowCustomerDetails** з використанням класів *Bank, Customer, Account* та ін. з наших попередніх лаб - банк повинен мати як мінімум два клієнти, інформацію про яких (та про перші рахунки, що їм належать) ви маєте побачити, увівши номер клієнта. *УВАГА! Класи можна взяти або з [відповідного репозиторію](https://github.com/liketaurus/OOP-JAVA), або взяти [jar-файл](https://github.com/liketaurus/TUI-Labs/blob/master/jars/MyBank.jar) з усіма необхідними класами з цього ж репозиторію та підключити його як бібліотеку (див. п.3 завдання "на трійку).*
-2. Запустіть проект, впевніться, що все працює як очікувалось. Продемонстрируйте результат викладачеві.
+![4 (1)](https://github.com/user-attachments/assets/0ea0d445-e263-470f-ad47-e7f580f7aeec)
+
+![4 (2)](https://github.com/user-attachments/assets/5b702869-a6ff-4b39-ad73-608f2c1db474)
 
 ## На "п'ять"
-1. Перепишіть метод **ShowCustomerDetails** з використанням класів *Bank, Customer, Account* та ін. з наших попередніх лаб - інформація про клієнтів банку та їх рахунках має читатись з файлу **test.dat** (робота номер 8, [файл даних](https://github.com/liketaurus/TUI-Labs/blob/master/data/test.dat) також є в цьому ж репозиторію). Інформацію про клієнта (та про перший рахунок, що йому належить) ви маєте побачити, увівши номер клієнта.
-2. Запустіть проект, впевніться, що все працює як очікувалось. Продемонстрируйте результат викладачеві.
+![5 (1)](https://github.com/user-attachments/assets/23d8740c-922b-4677-b49e-fafb77793409)
 
+![5 (2)](https://github.com/user-attachments/assets/cfa169fe-1936-44d0-bf1a-692222b74506)
 
-**УВАГА! Не забудьте завантажити результат виконання роботи до вашого власного репозиторію - в проекті 'Banking' цей класс має бути в пакеті com.mybank.tui!**
+![5 (3)](https://github.com/user-attachments/assets/dfcaa4e3-983b-4b4e-a570-a9c5077f2b4b)
 
+![5 (4)](https://github.com/user-attachments/assets/903554c7-de39-444e-a644-ca0a35992bd9)
